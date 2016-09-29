@@ -184,7 +184,7 @@ generated constructor.  The `:pre` capabilities of `deftag` can be used to emula
 for me
 [in lib-grimoire](https://github.com/clojure-grimoire/lib-grimoire/blob/master/src/grimoire/things.clj#L23-L90)
 and I highly recommend it as a mechanism for enforcing ongoing data sanity checks.  Note that
-`:post` is not supported because constructos are an identity operation and you may express any
+`:post` is not supported because constructors are an identity operation and you may express any
 legitimate postcondition with a precondition.
 
 ## License
